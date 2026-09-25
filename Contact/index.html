@@ -165,6 +165,34 @@
 
     </div>
 
+
+
+
+
+
+  
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+
+    if (!form) return;
+
+    // Clear the form whenever the page is restored from browser history
+    window.addEventListener("pageshow", function (event) {
+        if (event.persisted) {
+            form.reset();
+        }
+    });
+
+    // Prevent previously entered values from being restored
+    window.addEventListener("pagehide", function () {
+        form.reset();
+    });
+});
+</script>
+
+
+
 </body>
 
 </html>
