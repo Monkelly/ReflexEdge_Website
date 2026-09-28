@@ -225,7 +225,7 @@ button {
 
     overflow: hidden;
 
-    background-image: url("../images/pexels-pnw-prod-8251151.jpg");
+    background-image: url("../images/joyful-5w4z35AozpE-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -934,7 +934,7 @@ button {
             rgba(255, 255, 255, 0.82),
             rgba(255, 255, 255, 0.82)
         ),
-        url("../images/pexels-luna-lovegood-4087271.jpg")
+        url("../images/joyful-5w4z35AozpE-unsplash.jpg")
         center / cover no-repeat;
 }
 
@@ -945,7 +945,7 @@ button {
     inset: -15px;
 
     background:
-        url("../images//joyful-5w4z35AozpE-unsplash.jpg")
+        url("../images/joyful-5w4z35AozpE-unsplash.jpg")
         center / cover no-repeat;
 
 
