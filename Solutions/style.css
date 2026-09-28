@@ -757,6 +757,15 @@ button {
     border-color: var(--ink);
 }
 
+
+
+
+
+
+
+
+
+
 .solution-card.featured::before {
     background: var(--pink);
 }
