@@ -66,8 +66,8 @@
             Fill in the form below and we'll get back to you as soon as possible.
         </h3>
 
-       <form action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="20e25501-ebee-4e4c-b4e6-89bda718d08e">
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="060c3bcc-3f83-4742-bd3e-c0cab874b8b4">
                 <input
             type="hidden"
             name="redirect"
@@ -164,34 +164,6 @@
         </form>
 
     </div>
-
-
-
-
-
-
-  
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.querySelector("form");
-
-    if (!form) return;
-
-    // Clear the form whenever the page is restored from browser history
-    window.addEventListener("pageshow", function (event) {
-        if (event.persisted) {
-            form.reset();
-        }
-    });
-
-    // Prevent previously entered values from being restored
-    window.addEventListener("pagehide", function () {
-        form.reset();
-    });
-});
-</script>
-
-
 
 </body>
 
